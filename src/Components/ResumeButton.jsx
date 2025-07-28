@@ -1,13 +1,12 @@
-import React from 'react'
-import resume from '../assets/F5.pdf'
+import resume from "../assets/F5.pdf";
 
 const Resume = () => {
   return (
     <div className="flex justify-center items-center py-7">
-      <a 
+      <a
         href={resume}
-        download='resume'
-        className='
+        download="resume"
+        className="
           bg-[#465697]
           px-4
           py-2
@@ -24,18 +23,21 @@ const Resume = () => {
           group 
           relative 
           overflow-hidden
-          mx-4'
+          mx-4"
       >
-        <span className='
+        <span
+          className="
           relative 
           z-10 
           group-hover:text-opacity-80 
           transition-opacity 
           duration-300
-        '>
-          Download Resume!
+        "
+        >
+          +Download Resume+
         </span>
-        <span className='
+        <span
+          className="
           absolute 
           inset-0 
           bg-stone-700 
@@ -43,11 +45,11 @@ const Resume = () => {
           group-hover:opacity-20 
           transition-opacity 
           duration-300 
-          rounded-lg'
+          rounded-lg"
         ></span>
       </a>
     </div>
-  )
+  );
 };
 
 export default Resume;

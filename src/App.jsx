@@ -1,13 +1,12 @@
-
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Technologies from "./Components/Technologies";
-import Projects from"./Components/Projects";
+import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Resume from "./Components/Resume"
-import Footer from "./Components/Footer"
+import Resume from "./Components/ResumeButton";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -17,12 +16,11 @@ const App = () => {
       <div className="container mx-auto px-8 animate-fade-in-up">
         <Navbar />
         <Hero />
-        <Technologies/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        <Resume/>
-        <Footer/>
+        <Technologies />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
